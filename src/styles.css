@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Overpass", sans-serif;
+  color: hsl(0, 0%, 100%);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  bottom: 1rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.App {
+  height: 70svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
+
+.card-front {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: hsl(213, 19%, 18%);
+  width: 340px;
+  padding: 2rem;
+  border-radius: 1rem;
+  gap: 1rem;
+}
+
+body {
+  background: hsl(216, 12%, 8%);
+}
+
+.circle {
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 50%;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: transparent;
+}
+
+.submit-btn {
+  border-radius: 50px;
+  padding: 0.6rem;
+  width: 100%;
+  border: none;
+  background: hsl(25, 97%, 53%);
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 12px;
+  align-self: center;
+}
+
+.star-div {
+  padding: 0.6rem 0rem 1rem 0.75rem;
+}
+
+.star-div img {
+  width: 12px;
+}
+
+.buttons-div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  margin: 0.5rem 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  background: hsl(216, 12%, 54%);
+}
+
+p {
+  color: hsl(217, 12%, 63%);
+  font-size: 12px;
+}
+
+.submit-btn:hover {
+  background: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
+
+.selected {
+  background: hsl(25, 97%, 53%);
+}
+
+.selected:hover {
+  background: hsl(25, 97%, 53%);
+}
+
+.back {
+  align-items: center;
+  text-align: center;
+}
+
+.back p {
+  font-size: 15px;
+  width: 120%;
+}
+
+.yourrating {
+  border-radius: 50px;
+  color: hsl(25, 97%, 53%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 0.5rem 0.4rem 0.4rem 0.4rem;
+  font-size: 12px;
+}
