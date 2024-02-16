@@ -26,12 +26,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](images/image.png)
+![](src/images/image.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/KamiyaGaikwad/interactive-rating-component)
+- Live Site URL: [Netlify](https://frontend-interactive-rating-challenge.netlify.app/)
 
 ## My process
 
